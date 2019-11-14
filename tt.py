@@ -1,8 +1,23 @@
 import datetime
+import os
+import glob
+import sutil
+import wget
+
+"""
+os.path.expanduser(path) expands the path to the user's home directory
+os.path.join(path1,*path2*,...) joins path elements with the appropriate separator
+os.sep gives the OS dependent path separator (/ for Linux/Unix, \ for Windows)
+os.getcwd() gives the current working directory
+os.path.abspath(path) gives the OS dependent absolute path of a given path
+
+"""
+
+
 a = datetime.datetime.now()
 b = datetime.datetime(2018,11,13,13,10,10, 0)
 
-import wget
+
 url = 'http://www.futurecrew.com/skaven/song_files/mp3/razorback.mp3'
 filename = wget.download(url)
 filename
@@ -28,9 +43,10 @@ import glob
 import datetime
 import pygame
 
-a = len(list(glob.iglob("/home/mohan/Downloads/Untitled Folder/*", recursive=True)))
+os.chdir("/home/mohan/Downloads/")
+a = len(list(glob.iglob("Untitled Folder/*", recursive=True)))
 print(a)
-b = list(glob.iglob("/home/mohan/Downloads/Untitled Folder/*", recursive=True))
+b = list(glob.iglob("Untitled Folder/*", recursive=True))
 # for file in glob.glob('/home/mohan/Downloads/Untitled Folder/*'):
 #     print(file)
 #     for i in range(a):
@@ -67,5 +83,3 @@ def song():
         time.sleep(100)
     else:
         play(sound[1])
-
-
