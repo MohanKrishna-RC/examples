@@ -1,0 +1,5 @@
+In thoery, the training error should monotonically decrease as more layers are added to a neural network. In practise however, for a traditional neural network, it will reach a point where the training error will start increasing. 
+Resnets do not suffer from this problem. The training error will keep decreasing as more layers are added to the network. In fact, ResNets have made it possible to train networks with more than 1000 layers, even reaching 1000 layers.
+
+
+
