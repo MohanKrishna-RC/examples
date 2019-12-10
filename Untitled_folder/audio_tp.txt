@@ -1,0 +1,21 @@
+In signal processing, sampling is the reduction of a continuous signal into a series of discrete values. The sampling frequency or rate is the number of samples taken over some fixed amount of time. A high sampling frequency results in less information loss but higher computational expense, and low sampling frequencies have higher information loss but are fast and cheap to compute.
+
+Amplitude :
+The amplitude of a sound wave is a measure of its change over a period (usually of time). Another common definition of amplitude is a function of the magnitude of the difference between a variable's extreme values.
+
+The Fourier Transform decomposes a function of time (signal) into constituent freqencies. In the same way a musical chord, can be expressed by the volumes and frequencies of its constituent notes, a Fourier Transform of a function displays the amplitude (amount) of each frequency present in the underlying function(signal).
+
+
+There are variants of the Fourier Transform including the STFT, which is implemented in the librosa library and involves splitting an audio signal into frames and then taking the Fourier Transform of each frame. In audio processing generally, the Fourier is an elegant and useful way to decompose an audio signal into its constituent frequencies.
+
+Periodogram:
+
+In signal processing, a periodogram is an estimate of the spectral density of a signal. The output of a FT can be thought of as being (not exactly) essentially a periodogram.
+
+The power spectrum of a time series is a way to describe the distribution of power into discrete frequency components composing that signal. The statistical average of a signal, measured by its frequency content, is called its spectrum. The spectral density signal describes the frequency content of the signal.
+
+Spectogram:
+
+A spectogram is a visual representation of the spectrum of frequencies of a signal as it varies with time. A nice way to think about spectograms is as a stacked view of periodograms across some time-interval digital signal.
+
+

@@ -1,0 +1,13 @@
+('shape of wave data: ', 441000)
+('shape after resampling: ', 160000)
+('window length in samples: ', 400)
+('hop length in samples: ', 160)
+('number of samples for fft: ', 512)
+('number of frames: ', 998)
+('length of spectrogram: ', 998)
+('shape after mel filters: ', 998)
+('example_window_length: ', 96)
+('shape of log mel: ', (998, 64))
+('shape of log_mel_examples: ', (10, 96, 64))
+
+--proxy 127.0.0.1:3128

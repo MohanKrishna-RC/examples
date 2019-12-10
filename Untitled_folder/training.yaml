@@ -1,0 +1,131 @@
+fixname:
+  FeatureExtraction: true
+  level_info:
+    level_1: false
+    level_2: true
+    level_3_Music: false
+    level_3_nonMusic: false
+    level_3_combined : false
+
+mode:
+  training: true
+  prediction: false
+
+FeatureExtraction:
+  input_path_to_audio_files: ../datafiles/level_3_combined/p_files
+  output_path_to_audio_features: ../datafiles/level_3_combined/p_files
+
+csv_related_data:
+  combined_csv_for_all_classes : /home/aodev/python-environments/dcase2017_task4_cvssp/combined_granular.csv
+
+level_1 :
+  input_extra_csv_path : meta_data/level_1_speech_others.csv
+  default_h5_file: ''
+  default_training_scalar: ''
+  output_h5_file: combined_classes/unimp2_level_1_speech_others.h5
+  output_training_scalar: combined_classes/unimp2_level_1_speech_others.scalar
+  training :
+    epochs: 250
+    loss: binary_crossentropy
+    optimizer: adam
+    steps_per_epoch: 100
+    classes :
+      - speech
+      - nonspeech
+
+level_2 :
+  input_extra_csv_path : meta_data/level_2_Music_nonMusic.csv 
+  default_h5_file: ''
+  default_training_scalar: ''
+  output_h5_file: combined_classes/unimp2_level_2_Music_nonMusic.h5
+  output_training_scalar: combined_classes/unimp2_level_2_Music_nonMusic.scalar
+  training :
+    epochs: 250
+    loss: binary_crossentropy
+    optimizer: adam
+    steps_per_epoch: 100
+    classes :
+      - Music
+      - nonMusic
+    
+level_3_Music :
+  input_extra_csv_path : meta_data/level_3_Music.csv
+  default_h5_file: combined_classes/Music_imp/Music_extra_p_files.h5
+  default_training_scalar: combined_classes/Music_imp/Music_extra_p_files.h5
+  output_h5_file: combined_classes/unimp2_level_3_Music.h5
+  output_training_scalar: combined_classes/unimp2_level_3_Music.scalar
+  training :
+    epochs: 250
+    loss: binary_crossentropy
+    optimizer: adam
+    steps_per_epoch: 100
+    classes :
+      - Joyful_sounds
+      - Sad
+      - Angry
+      - Scary
+    
+    
+level_3_nonMusic :
+  input_extra_csv_path : meta_data/level_3_nonMusic.csv
+  default_h5_file: combined_classes/NonMusic_imp/final_train_eval_wavs.h5
+  default_training_scalar: combined_classes/NonMusic_imp/final_train_eval_wavs.scalar
+  output_h5_file: combined_classes/unimp2_level_3_nonMusic.h5
+  output_training_scalar: combined_classes/unimp2_level_3_nonMusic.scalar
+  training :
+    epochs: 250
+    loss: binary_crossentropy
+    optimizer: adam
+    steps_per_epoch: 100
+    classes :
+      - Vocal_sounds
+      - clapping
+      - Natural_sounds
+      - Foley_sounds
+    
+
+level_3_combined :
+  input_extra_csv_path : meta_data/level_3_combined.csv
+  default_h5_file: ''
+  default_training_scalar: ''
+  output_h5_file: combined_classes/unimp2_level_3_combined.h5
+  output_training_scalar: combined_classes/unimp2_level_3_combined.scalar
+  training :
+    epochs: 250
+    loss: binary_crossentropy
+    optimizer: adam
+    steps_per_epoch: 100
+    classes :
+      - Joyful_sounds
+      - Sad
+      - Angry
+      - Scary
+      - Vocal_sounds
+      - clapping
+      - Natural_sounds
+      - Foley_sounds
+
+models:
+  Root_path: models/
+  model1: level_1_pred11/
+  model2: level_2_pred11/
+  model3: level_3_Music_pred11/
+  model4: level_3_nonMusic_pred11/
+
+config_prediction:
+  input_extra_csv_path: ''
+  output_h5_file: combined_classes/all_prediction.h5
+  
+  assets:
+    prediction_csv_level_1: prediction_files/
+    prediction_csv_level_2: prediction_files/
+    prediction_csv_level_3_music: prediction_files/
+    prediction_csv_level_3_nonmusic: prediction_files/
+    prediction_csv_level_3_combined: prediction_files/
+
+
+
+
+
+
+

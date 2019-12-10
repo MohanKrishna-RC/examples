@@ -1,0 +1,86 @@
+Programmers do need to get the most out of the computers by reducing overall energy expenditure and ultimately maximizing the value generated.
+
+Common practises for a better code.
+
+. Use descriptive Variable names. (Not x or y)
+2. Make good use of functions to organize code.
+3. Use pre-existing libraries whenever possible.
+4. Avoid long method chains (One operation per line if possible)
+5. Avoid highly nuanced and complicated language constructs when simple ones will do the trick.
+6. Use an IDE for production code. (Jupyter is not reliable for production code)
+7. Don't forget to include doc strings and other language specific documentation.
+8. Write unit test as you go.
+9. Adopt and adhere to a standard like PEP8 or equivalent.
+10. Learn to use loggers.
+
+Note : Make a practise of writing Unit tests often.
+
+Use Logging Module :
+One of the Key difference between production and non-production code is logging. Stop using print statements very often.
+
+Advantages of logging.
+
+1. When we execute our code, you can set the logging level to reflect what we're trying to do. If we're trying to debug our code, we can display only the debugging messages, and if we're trying to run our code in production, we can leave only the messages that could be critical.
+2. Unlike print statement approach. we can leave these in your code when we are done, so that if bugs creep in later, we don't have to mess with the code to fix them.
+3. we can redirect your logs to files so that we can keep a constant eye on execution times, data volumes etc.
+
+#########################################################################
+
+Production Code : Software running on production servers to handle live users and data of the intended audience. This is different from production quality code, which describes code that meets the expectations in reliability, effeciency, etc. for production. Ideally all code in production meets these expectations, but this is not always the case.
+
+Clean : Readable, simple, and concise. A characteristic of production quality code that is crucial for colloboration and maintainability in software development.
+
+Modular : Logically broken up into functions and modules. Also an important characteristic of production quality code that makes our code more organized, efficient, and reusable.
+
+Module : A file. Modules allow code to be reused by encapsulating them into files that can be imported into other files.
+
+Key notes :
+
+How we can encapuslate code in a function and reuse it by calling the function in different places, you can encapsulate code within a module or file and reuse it by important it in other files. 
+
+Splitting code into logical functions and modules, allows you to quickly find relevant pieces of code. You can often generalize these pieces of code to be used in different places, to prevent yourself form writing extra unnecessary lines of code. Abstracting out these details into these functions and modules can really help in improving the readability of your code. Again, programming in a way that makes it easier for a team to understand and iterate on is crucial for production.
+
+Code refactoring : 
+
+It is a term for restructuring your code to improve its internal structure without changing its external functionality. Refactoring gives us an oppurtunity to clean and modularize your code after we've produced code that works. In the short-term, we might see this as a waste of time, since we could be moving on to the next feature.
+
+
+
+Meaningful names:
+
+1. Be descriptive and imply type.
+
+2. Be consistent but clearly differentiate. -- Eg age_list and age is easy to differentiate than ages and age.
+
+3. Avoid abbreviations and especially single letters -- If we work with other DS, certain variables may be common knowledge. While if we work with full stack engineers, it might be necessary to provide more descriptive names in these cases as well.
+
+4. Long names != descriptive names -- You should be descriptive, but only with relevant information. E.g good functions names describe what they do well without including details about implementation or highly specific uses.
+
+
+
+Writing Modular code.....
+
+Don't repeat yourself! Modularization allows you to reuse parts of your code. Generalize and consolidate repeated code in functions or loops.
+
+Abstract out logic to improve readability.
+
+Abstracting out code into a function not only makes it less repetitive, but also improves readablity with descriptive function names. Although our code can become more readable when you abstract out logic into functions, it is possible to over-engineer this and have way too many modules, so use our judgement.
+
+Minimize the number of entities.
+
+There are tradeoffs to having function calls instead of inline logic. Don't break code into an unnecessary amount of functions and modules. Creating more modules doesn't necessarily result in effective modularization.
+
+Functions should do one thing.
+Each function we write should be focused on doing one thing. If a function is doing multiple things, it becomes more difficult to generalize and reuse. Generally, if there's an "and" in your function name, consider refactoring.
+
+
+Arbitrary variable names can be more effective in certain functions.
+
+Arbitrary variable names in general functions can actually make the code more readable.
+
+Try to use fewer than three arguments per function.
+
+Try not to use more than three arguments if possible. It is always better to use fewer arguments. We are modularizing to simplify our code and make it more efficient to work with. 
+
+
+

@@ -1,0 +1,31 @@
+2018-11-29 16:43:04,773 Harmless debug Message
+2018-11-29 16:43:05,284 Just an information
+2018-11-29 16:43:05,836 Its a Warning
+2018-11-29 16:43:06,413 Did you try to divide by zero
+2018-11-29 16:43:07,030 Did you try to divide by zero
+2018-11-29 16:43:07,864 Internet is down
+2018-11-29 16:53:14,066 subprocess.call(['avconv', '-y', '-f', 'mp3', '-i', '/home/mohan/Downloads/Untitled Folder 2/96ThemeMusic.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2018-11-29 16:53:45,891 subprocess.call(['avconv', '-y', '-f', 'mp3', '-i', '/home/mohan/Downloads/Untitled Folder 2/96ThemeMusic.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2018-11-29 16:53:46,083 subprocess.call(['avconv', '-y', '-f', 'mp3', '-i', '/home/mohan/Downloads/Untitled Folder 2/[iSongs.info] 05 - Entha Ghatu Premayo.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2018-11-29 16:53:46,860 subprocess.call(['avconv', '-y', '-f', 'mp3', '-i', '/home/mohan/Downloads/Untitled Folder 2/_The Life of Ram - SenSongsMp3.Co.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2018-11-29 17:00:25,931 subprocess.call(['avconv', '-y', '-f', 'mp3', '-i', '/home/mohan/Downloads/Untitled Folder 2/96ThemeMusic.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2018-11-29 17:00:26,133 subprocess.call(['avconv', '-y', '-f', 'mp3', '-i', '/home/mohan/Downloads/Untitled Folder 2/[iSongs.info] 05 - Entha Ghatu Premayo.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2018-11-29 17:00:26,897 subprocess.call(['avconv', '-y', '-f', 'mp3', '-i', '/home/mohan/Downloads/Untitled Folder 2/_The Life of Ram - SenSongsMp3.Co.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2018-11-29 17:02:27,112 subprocess.call(['avconv', '-y', '-f', 'mp3', '-i', '/home/mohan/Downloads/Untitled Folder 2/96ThemeMusic.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2018-11-29 17:02:27,316 subprocess.call(['avconv', '-y', '-f', 'mp3', '-i', '/home/mohan/Downloads/Untitled Folder 2/[iSongs.info] 05 - Entha Ghatu Premayo.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2018-11-29 17:02:28,148 subprocess.call(['avconv', '-y', '-f', 'mp3', '-i', '/home/mohan/Downloads/Untitled Folder 2/_The Life of Ram - SenSongsMp3.Co.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2018-11-29 17:03:13,973 subprocess.call(['avconv', '-y', '-f', 'mp3', '-i', '/home/mohan/Downloads/Untitled Folder 2/96ThemeMusic.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2018-11-29 17:03:14,179 subprocess.call(['avconv', '-y', '-f', 'mp3', '-i', '/home/mohan/Downloads/Untitled Folder 2/[iSongs.info] 05 - Entha Ghatu Premayo.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2018-11-29 17:03:15,026 subprocess.call(['avconv', '-y', '-f', 'mp3', '-i', '/home/mohan/Downloads/Untitled Folder 2/_The Life of Ram - SenSongsMp3.Co.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2018-11-29 17:04:33,856 subprocess.call(['avconv', '-y', '-f', 'mp3', '-i', '/home/mohan/Downloads/Untitled Folder 2/96ThemeMusic.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2018-11-29 17:04:34,064 subprocess.call(['avconv', '-y', '-f', 'mp3', '-i', '/home/mohan/Downloads/Untitled Folder 2/[iSongs.info] 05 - Entha Ghatu Premayo.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2018-11-29 17:04:34,909 subprocess.call(['avconv', '-y', '-f', 'mp3', '-i', '/home/mohan/Downloads/Untitled Folder 2/_The Life of Ram - SenSongsMp3.Co.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2018-11-29 17:05:55,182 subprocess.call(['avconv', '-y', '-f', 'mp3', '-i', '/home/mohan/Downloads/Untitled Folder 2/96ThemeMusic.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2018-11-29 17:05:55,394 subprocess.call(['avconv', '-y', '-f', 'mp3', '-i', '/home/mohan/Downloads/Untitled Folder 2/[iSongs.info] 05 - Entha Ghatu Premayo.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2018-11-29 17:05:56,185 subprocess.call(['avconv', '-y', '-f', 'mp3', '-i', '/home/mohan/Downloads/Untitled Folder 2/_The Life of Ram - SenSongsMp3.Co.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2018-11-29 17:06:37,373 subprocess.call(['avconv', '-y', '-f', 'mp3', '-i', '/home/mohan/Downloads/Untitled Folder 2/96ThemeMusic.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2018-11-29 17:06:37,591 subprocess.call(['avconv', '-y', '-f', 'mp3', '-i', '/home/mohan/Downloads/Untitled Folder 2/[iSongs.info] 05 - Entha Ghatu Premayo.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2018-11-29 17:06:38,465 subprocess.call(['avconv', '-y', '-f', 'mp3', '-i', '/home/mohan/Downloads/Untitled Folder 2/_The Life of Ram - SenSongsMp3.Co.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2018-11-29 17:08:17,760 subprocess.call(['avconv', '-y', '-f', 'mp3', '-i', '/home/mohan/Downloads/Untitled Folder 2/96ThemeMusic.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2018-11-29 17:08:17,980 subprocess.call(['avconv', '-y', '-f', 'mp3', '-i', '/home/mohan/Downloads/Untitled Folder 2/[iSongs.info] 05 - Entha Ghatu Premayo.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2018-11-29 17:08:18,794 subprocess.call(['avconv', '-y', '-f', 'mp3', '-i', '/home/mohan/Downloads/Untitled Folder 2/_The Life of Ram - SenSongsMp3.Co.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])

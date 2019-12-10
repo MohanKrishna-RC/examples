@@ -1,0 +1,35 @@
+
+select b.gender_id,b.age_id,a.frame_id,a.embedding_arcface
+from
+(select frame_id, embedding_arcface FROM `athenas-owl-dev.Age_gender_embeddings_arcface_final.Age_gender_embeddings_full_data`) a
+left join
+(select * from `athenas-owl-dev.Age_gender_embeddings_arcface_final.mapping_csv_final_24000`) b
+on 
+a.frame_id = b.frame_id 
+and
+b.frame_id is not null
+limit 10
+
+
+
+
+-- select a.gender_id,a.age_id,a.frame_id,b.embedding_arcface
+-- from
+
+-- (
+select gender_id, age_id, frame_id, labelling_procedure from 
+`athenas-owl-dev.Age_gender_embeddings_arcface_final.mapping_csv_final_24000`
+where gender_id, age_id, frame_id, labelling_procedure
+NOT IN
+(select * from 
+`athenas-owl-dev.Age_gender_embeddings_arcface_final.mapping_csv_test_direct_4295`)
+) a
+
+-- inner join
+-- (select frame_id, embedding_arcface FROM `athenas-owl-dev.Age_gender_embeddings_arcface_final.Age_gender_embeddings_full_data`) b
+-- on 
+-- a.frame_id = b.frame_id 
+
+-- and b.embedding_arcface is not null
+
+

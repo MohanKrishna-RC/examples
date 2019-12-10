@@ -1,0 +1,28 @@
+Building a docker:- sudo docker build -t mohan .
+
+
+Add docker to sudo
+sudo groupadd docker
+sudo usermod -aG docker $USER
+
+docker run -ti -v Music_ex/Tender:~/Music_exx/Tender mohan
+
+
+gcloud compute instances start example-instance
+gcloud compute instances stop example-instance-1
+
+activate environment in bash script
+source <absolute_path>/activate
+
+Check if you have any directories in your current path! You can check that by "ls -lrt" which lists the files and directories in your current path.
+
+
+
+This video is unavailable.
+This video is no longer available because the YouTube account associated with this video has been terminated.
+Content Warning
+This video is no longer available due to a copyright claim by Svetlana Ceca Raznatovic.
+This video contains content from ONIMA, who has blocked it on copyright grounds.
+This video has been removed for violating YouTube's policy on spam, deceptive practices, and scams.
+
+Unable to download webpage: HTTP Error 429: Too Many Requests (caused by HTTPError()); please report this issue on https://yt-dl.org/bug . Make sure you are using the latest version; see  https://yt-dl.org/update  on how to update. Be sure to call youtube-dl with the --verbose flag and include its complete output.

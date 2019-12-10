@@ -1,0 +1,19 @@
+what is batch_size?
+
+The batch size is a hyperparameter of gradient descent that controls the number of training samples to work through before the model's internal parameters are updated. The number of epochs is a hyperparameter of gradient descent that controls the number of complete passes through the training dataset.
+
+what is steps per epoch?
+
+An epoch usually means one iteration over all of the training data. For instance if you have 20,000 images and a batch size of 100 then the epoch should contain 20,000 / 100 = 200 steps.
+
+what should be batch_size?
+
+Generally batch size of 32 or 25 is good, with epochs = 100 unless you have large dataset. in case of large dataset you can go with batch size of 10 with epochs b/w 50 to 100.
+
+What does mean in keras?
+
+mini-batch mode: where the batch size is greater than one but less than the total dataset size. Usually, a number that can be divided into the total dataset size. stochastic mode: where the batch size is equal to one. Therefore the gradient and the neural network parameters are updated after each sample.
+
+what is steps per epoch in keras?
+
+steps_per_epoch: Total number of steps (batches of samples) to yield from generator before declaring one epoch finished and starting the next epoch. It should typically be equal to the number of unique samples of your dataset divided by the batch size.

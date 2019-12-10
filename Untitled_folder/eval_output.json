@@ -1,0 +1,11 @@
+{
+   "STATUS_CODE":"200",
+   "MESSAGE":"The system has generated the metadata of face detected in the frame from feature vector. ",
+   "RESULT":{
+      "OUTPUT_FILE_LOCATION":[
+         {
+            "METADATA":"/home/mohan/precision_recall.json"
+         }
+      ]
+   }
+}
